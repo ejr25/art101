@@ -1,18 +1,24 @@
-h1 {
-  color:#630505;
-  font-size:400%;
+@font-face{
+  src: url(Nosifer-Regular.ttf);
+  font-family: nos;
+}
 
+h1 {
+  font-family: nos;
+  color: #000000;
+  font-size:400%;
 }
 
 p {
   font-family:;
   text-indent:;
   margin-left:;
+  color: #000000;
+  font-weight: 900;
 }
- #content {
-   background-color: #8c0a0a;
-   opacity: 0.5;
-   width:;
-   border: dotted 5px;
 
- }
+#content {
+  background-color: #8c0a0a;
+  width:;
+  border: dotted 5px;
+}
