@@ -1,0 +1,77 @@
+p {
+  color: #1c421a;
+}
+
+body {
+  background-color: #dffade;
+}
+
+#rs {
+  width: 700px;
+}
+#rc {
+  width: 700px;
+}
+#rb {
+  width: 700px;
+}
+
+
+
+/*background=#dffade*/
+/*block/tile1=##95bd93*/
+/*block/tile1FONT=#1c421a*/
+/*block/tile1BORDER=#102b0f*/
+#t1-fst {
+  width: 500px;
+}
+#t2-b {
+  width: 700px;
+}
+#t2-sc {
+  width: 500px;
+}
+
+h1 {
+  color: #102b0f;
+}
+h2 {
+  color: #102b0f;
+}
+
+#summ {
+  background-color: #95bd93;
+  padding: 10px;
+  border: 3px #102b0f;
+  border-style: dotted;
+  margin: 10px;
+}
+
+#diff {
+  background-color: #95bd93;
+  padding: 10px;
+  border: 3px #102b0f;
+  border-style: dotted;
+  margin: 10px;
+}
+
+#res {
+  background-color: #95bd93;
+  padding: 10px;
+  border: 3px #102b0f;
+  border-style: dotted;
+  margin: 10px;
+}
+
+#rp1 {
+  background-color: #5e8a5c;
+  width: 725px;
+}
+#rp2 {
+  background-color: #5e8a5c;
+  width: 725px;
+}
+#rp3 {
+  background-color: #5e8a5c;
+  width: 725px;
+}
