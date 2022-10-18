@@ -1,0 +1,59 @@
+body {
+  background-color: #ab0e0e;
+}
+h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black
+}
+
+ p {
+   color: black
+ }
+
+#body {
+  margin: 30px;
+  padding: 50px;
+  border-style: groove;
+  border-width: thick;
+  background-color: lightgray;
+}
+
+#my-car {
+  width: 400px;
+}
+
+
+#sect-1 {
+  background-color: #dbdbdb;
+  padding: 10px;
+  padding-right: 5px;
+}
+
+#sect-2 {
+  background-color: #dbdbdb;
+  padding: 10px;
+}
+
+#sect-3 {
+  background-color: #dbdbdb;
+  padding: 10px;
+}
+
+#cc {
+  width: 100px;
+}
+#sc {
+  width: 100px;
+}
+#jsf {
+  width: 100px;
+}
