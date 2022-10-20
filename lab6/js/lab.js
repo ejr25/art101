@@ -4,13 +4,8 @@
  * License: Public Domain
 */
 
-console.log("HI");
-
-
 
 // Declaring Variables
-var test = "hi";
-
 var myTransport = ["Santa Cruz Metro", "Campus Loop", "Walking"];
 
 var myMainRide = {
@@ -23,7 +18,6 @@ var myMainRide = {
 
 
 // Output
-document.writeln("Test: " + test + "<br>");
 document.writeln("My forms of transportation: " + myTransport + "<br>");
 document.writeln("My Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "</pre>");

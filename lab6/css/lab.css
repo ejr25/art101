@@ -1,22 +1,65 @@
-#java {
-  color: black;
+body {
+  background-color: #ab0e0e;
 }
-#my-car {
-  width: 100px;
-}
-
 h1 {
-  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h2 {
-  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black
 }
 
 h3 {
-  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black
 }
 
-body {
-  background-color: white;
+p {
+  color: black
+}
+
+#body {
+  margin: 30px;
+  padding: 50px;
+  border-style: groove;
+  border-width: thick;
+  background-color: lightgray;
+}
+
+#my-car {
+  width: 400px;
+}
+
+#back-home {
+  background-color: #ab0e0e;
+  padding: 10px;
+  border-radius: 25px:
+}
+
+#sect-1 {
+  background-color: #dbdbdb;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 10px
+  border-color: black;
+  margin-bottom: 15px;
+}
+
+#sect-2 {
+  background-color: #dbdbdb;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 10px
+  border-color: black;
+  margin-bottom: 15px;
+}
+
+#sect-3 {
+  background-color: #dbdbdb;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 10px
+  border-color: black;
+  margin-bottom: 15px;
 }
