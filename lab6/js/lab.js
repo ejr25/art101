@@ -1,5 +1,5 @@
 /*
- * Author: Emma Radihckova eradichk@ucsc.edu
+ * Author: Emma Radihckova <eradichk@ucsc.edu>
  * Created: 18 October 2022
  * License: Public Domain
 */
