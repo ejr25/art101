@@ -30,3 +30,9 @@ outputEl.appendChild(new2El);
 
 
 // BONUS TASK
+// Step 7: Create a third new HTML paragraph element
+var new3El =  document.createElement("p");
+// Step 8: Change the html attribute of new1El to say something new.
+new3El.innerHTML = "new3El: This will be appended in front of the other elements";
+// Step 9: Append the third new HTML element on top of the output element
+outputEl.insertBefore(new3El, new1El);
