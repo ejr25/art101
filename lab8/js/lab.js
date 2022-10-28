@@ -12,6 +12,7 @@ function subtractFive(n) {
   return n - 5
 };
 
+
 // Testing the subtractFive function
 console.log("5 - 5 = ", subtractFive(5));
 console.log("67 - 5 = ", subtractFive(67));
