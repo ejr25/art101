@@ -1,12 +1,12 @@
-#output {
+/*#output {
   background-color: white;
-}
+}*/
 body {
-  background-color: #16330a;
+  background-color: #122f5e;
 }
 h1 {
   font-family: "Lucida Console", "Courier New", monospace;
-  color: #331b0a;
+  color: black;
 }
 
 h2 {
@@ -24,12 +24,12 @@ p {
 }
 
 #body {
-  margin: 30px;
+  margin: 10px;
   padding: 50px;
   border-style: dotted;
-  border-color: #8f1a06;
+  border-color: #122f5e;
   border-width: thick;
-  background-color: #91633a;
+  background-color: white;
 }
 
 
@@ -41,28 +41,28 @@ p {
 }
 
 #sect-1 {
-  background-color: #ffdc9e;
+  background-color: #ebf2ff;
   padding: 10px;
   border-style: groove;
   border-width: 10px;
-  border-color: #a64c03;
+  border-color: #95a9c9;
   margin-bottom: 15px;
 }
 
 #sect-2 {
-  background-color: #ffdc9e;
+  background-color: #ffefeb;
   padding: 10px;
   border-style: groove;
   border-width: 10px;
-  border-color: #a64c03;
+  border-color: #f7b297;
   margin-bottom: 15px;
 }
 
 #sect-3 {
-  background-color: #ffdc9e;
+  background-color: #edffeb;
   padding: 10px;
   border-style: groove;
   border-width: 10px;
-  border-color: #a64c03;
+  border-color: #a6c995;
   margin-bottom: 15px;
 }

@@ -27,6 +27,14 @@ new2El.innerHTML = "new2El: This is still super cool :p";
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
 
+// Step 7: Change the CSS attributes of at least two elements of the page
+outputEl.style.backgroundColor = "white";
+outputEl.style.padding = "10px";
+outputEl.style.borderStyle = "solid";
+new1El.style.backgroundColor = "#fcebff";
+new1El.style.color = "#8902a1";
+new2El.style.backgroundColor = "#ffeeab";
+new2El.style.color = "#dbaf00";
 
 
 // BONUS TASK
@@ -36,3 +44,6 @@ var new3El =  document.createElement("p");
 new3El.innerHTML = "new3El: This will be appended in front of the other elements";
 // Step 9: Append the third new HTML element on top of the output element
 outputEl.insertBefore(new3El, new1El);
+// Step 10: Change the CSS attributes of new3El
+new3El.style.backgroundColor = "#fad7e8";
+new3El.style.color = "#f7027d";
