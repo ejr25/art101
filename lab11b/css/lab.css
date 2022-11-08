@@ -1,14 +1,10 @@
-#output {
-  background-color: white;
-}
-
 .box {
   background-color: #bdd4fc;
   padding: 10px;
   border-style: groove;
   border-width: 10px;
   border-color: #2643ff;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 .special {
@@ -17,30 +13,37 @@
   border-style: groove;
   border-width: 10px;
   border-color: #db3074;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+}
+
+#font-button {
+  background-color: yellow;
+}
+
+.sect-text {
+  color: black;
+}
+
+.special2 {
+  color: white;
+}
+
+.special3 {
+  color: red;
+}
+
+button {
+  color: black;
 }
 
 body {
   background-color: #122f5e;
 }
-h1 {
+h1, h2, h3 {
   font-family: "Lucida Console", "Courier New", monospace;
   color: black;
 }
 
-h2 {
-  font-family: "Lucida Console", "Courier New", monospace;
-  color: black
-}
-
-h3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-  color: black
-}
-
-p {
-  color: black
-}
 
 #body {
   margin: 10px;
@@ -51,13 +54,14 @@ p {
   background-color: white;
 }
 
-
-#back-home {
+#back-home, #link-to-js-file {
   background-color: #8f1a06;
   padding: 10px;
   border-radius: 25px;
   margin-top: 50px;
 }
+
+#link-to-js-file
 /*
 #sect-1 {
   background-color: #ebf2ff;
@@ -84,5 +88,26 @@ p {
   border-width: 10px;
   border-color: #a6c995;
   margin-bottom: 15px;
+}
+
+
+
+
+.box {
+  background-color: #bdd4fc;
+  padding: 10px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #2643ff;
+  margin-bottom: 15px
+}
+
+.special {
+  background-color: #f5b3cd;
+  padding: 10px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #db3074;
+  margin-bottom: 15px
 }
 */
