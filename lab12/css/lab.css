@@ -1,0 +1,8 @@
+h1, h2, h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+}
+
+#body {
+  color: red;
+}
