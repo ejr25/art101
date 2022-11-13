@@ -1,0 +1,48 @@
+h1, h2, h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: black;
+}
+
+#body {
+  color: black;
+}
+
+
+.fancy-box {
+  border: solid 3px #2f007a;
+  background-color: #a18fbd;
+  height: 175px;
+  padding: 10px;
+}
+
+#output {
+  background-color: white;
+}
+
+
+#sect-1 {
+  background-color: #ebf2ff;
+  padding: 10px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #95a9c9;
+  margin-bottom: 15px;
+}
+
+#sect-2 {
+  background-color: #ffefeb;
+  padding: 10px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #f7b297;
+  margin-bottom: 15px;
+}
+
+#sect-3 {
+  background-color: #edffeb;
+  padding: 10px;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #a6c995;
+  margin-bottom: 15px;
+}
