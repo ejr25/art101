@@ -1,6 +1,23 @@
 body {
   background-color: white;
 }
+
+@font-face {
+  font-family: labTitle;
+  src: url(lab4title.TTF);
+}
+
+@font-face {
+  font-family: labTitle2;
+  src: url(lab4subtitle.ttf);
+}
+
+h1 {
+  font-family: labTitle;
+  color: black
+}
+
 h2 {
+  font-family: labTitle2;
   color: black
 }

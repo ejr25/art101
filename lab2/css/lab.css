@@ -1,3 +1,4 @@
+/*
 @font-face{
   src: url(Nosifer-Regular.ttf);
   font-family: nos;
@@ -8,7 +9,7 @@ h1 {
   color: #000000;
   font-size:400%;
 }
-
+*/
 p {
   font-family:;
   text-indent:;
@@ -21,4 +22,15 @@ p {
   background-color: #8c0a0a;
   width:;
   border: dotted 5px;
+}
+
+
+@font-face {
+  font-family: spooky;
+  src: url(Nosifer-Regular.ttf);
+}
+
+h1 {
+  font-family: spooky;
+  color: black
 }
