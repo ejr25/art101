@@ -14,10 +14,51 @@ body {
 
 h1 {
   font-family: labTitle;
-  color: black
+  color: brown;
 }
 
 h2 {
   font-family: labTitle2;
-  color: black
+  color: black;
 }
+
+#sect-0, #sect-3, #sect-4 {
+  margin: 10px;
+  padding: 10px;
+  border: 10px green;
+  background-color: linen;
+}
+
+
+
+#flex {
+  display: flex;
+  background-color: tan;
+}
+
+#flex > div {
+  background-color: linen;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+/*
+#flex {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border: green;
+  border-width: thick;
+  background-color: purple;
+}
+
+#sect-1, #sect-2 {
+  color: pink;
+}
+*/
