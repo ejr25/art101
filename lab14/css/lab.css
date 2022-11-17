@@ -50,6 +50,17 @@ a:hover {
   margin-top: 50px;
 }
 
+
 body {
   background-color: white;
+}
+
+#sect-3 {
+  background-color: linen;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  border-width: 10px;
+  border-color: tan;
+  border-style: solid;
 }

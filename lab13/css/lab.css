@@ -19,6 +19,17 @@ h1, h2, h3 {
   background-color: white;
 }
 
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
+
 
 #sect-1 {
   background-color: #ebf2ff;
