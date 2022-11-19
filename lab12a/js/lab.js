@@ -4,6 +4,7 @@ function houseSort(name) {
   var length = name.length;
   // get modulus of name
   var mod = length % 4;
+  debugger;
   // choose a house
   if (mod == 0) {
   	var house = "Ravenclaw"

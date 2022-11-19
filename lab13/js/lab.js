@@ -14,6 +14,8 @@ function fizzBuzzBoom() {
     	print = "FizzBuzzBoom!"
       // Step 8: Make it so the output of your program appears in your output div: for each number, create a new DOM element and append to your output div
 			$("#output").append("<p>" + print + "</p>");
+      console.log("i: " + i)
+      debugger;
     }
     // If the number is a mutliple of 3 and 5, it should print "FizzBuzz!"
     else if (i%15 == 0) {
