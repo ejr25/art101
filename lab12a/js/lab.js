@@ -23,10 +23,10 @@ function houseSort(name) {
 $("#sort").click(function(){
 	// get input from field
   var name = $("#name").val();
-  console.log("name: " + name);
+  //console.log("name: " + name);
   // sort results
   var result = houseSort(name);
-  console.log("result: " + result);
+  //console.log("result: " + result);
   // output the result on webpage
   $("#sorted").html("Your house is: " + result);
 })

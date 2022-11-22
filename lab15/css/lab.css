@@ -1,0 +1,77 @@
+@font-face {
+  font-family: labH1;
+  src: url(lab-h1.TTF);
+}
+
+@font-face {
+  font-family: labH2;
+  src: url(lab-h2.ttf);
+}
+
+h1 {
+  font-family: labH1;
+  color: maroon;
+}
+
+h2, h3 {
+  font-family: labH2;
+  color: black;
+}
+
+
+#flex-1 {
+  display: flex;
+  background-color: #912929;
+}
+
+#flex-1 > div {
+  background-color: linen;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  color: red;
+}
+
+#back-home, #link-to-js-file {
+  background-color: #fce6d9;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  width: 250px;
+}
+
+#output {
+  background-color: black;
+  color: white;
+  /*display: inline-block;*/
+  width: fit-content;
+}
+
+
+
+#sect-3, #sect-4 {
+  margin: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #912929;
+  background-color: linen;
+  padding: 10px;
+}
