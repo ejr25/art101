@@ -4,13 +4,12 @@
 // License: Public Domain
 
 
-
+// Insert any API endpoint here to avoid hardcoding thre function
 var endpoint = "https://eightballapi.com/api";
 
-// Defines function that
+// Defines function that gets data from API
 function getAPIData() {
-	console.log("Running getAPIData");
-  // go to numbers.api for data using AJAX
+  // Goes to API for data using AJAX
   $.ajax({
       // API endpoint
       url: endpoint,
@@ -26,15 +25,18 @@ function getAPIData() {
       var fortune = data.reading
       $("#output").text(fortune);
 
-
   })
-  // If the request fails
+  // If the request fails, throw error
   .fail(function(request,error) {
       console.log(request, error);
   });
 }
 
+// Event for when button is pressed, it will return API data
 $("#activate").click(getAPIData);
+
+
+
 
 
 
