@@ -3,7 +3,6 @@
 // Created: 26 November 2022
 // License: Public Domain
 
-
 // Use $.ajax() recipe to retrieve data
 $.ajax({
     url: "https://xkcd.com/156/info.0.json",
